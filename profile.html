@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>profile</title>
+    <link rel="stylesheet" href="layout/css/bootstrap.min.css">
+    <link rel="stylesheet" href="layout/css/font-awesome.min.css">
+    <link rel="stylesheet" href="layout/css/main.css">
+
+</head>
+
+<body>
+
+    <!--start navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="logo">
+            <img src="layout/image/logo.png">
+
+        </div>
+        <form class="form-inline my-2 my-lg-0 search">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search...." aria-label="Search">
+            <button class="btn  my-2 my-sm-0" type="submit">
+                <i class="fa fa-search"></i></button>
+        </form>
+
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon">   
+                <i class="fa fa-bars" style="color:#000; font-size:28px;"></i>
+            </span> </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="home.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                               college
+                            </a>
+
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <i class="fa fa-caret-up fa-5x  triangle-up"></i>
+                        <li><a class="dropdown-item" href="collegeproject-1.html"> College of Education</a></li>
+                        <li><a class="dropdown-item" href="#">  College of Computer  </a></li>
+                        <li><a class="dropdown-item" href="#" style=" border-bottom: 0px;">  College of Engineering  </a></li>
+
+                    </ul>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="bestproject-2.html">Best Project</a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="tranining2.html">Tranining</a>
+                </li>
+            </ul>
+            <div class="users">
+                <div class="img-circle">
+                    <img src="layout/image/user-img.png" alt="">
+
+                </div>
+                <div class="dropdown nav-item">
+                    <button class="btn nav-link dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">   
+                        </button>
+                    <ul class="dropdown-menu profile" aria-labelledby="navbarDropdownMenuLink">
+                        <i class="fa fa-caret-up fa-5x  triangle-up visible-sm"></i>
+                        <li>
+                            <a class="dropdown-item" href="profile.html"> <i class="fa fa-user"></i> profile</a>
+                        </li>
+                        <li> <a class="dropdown-item" href="#"><i class="fa fa-cog"></i> setting</a></li>
+                        <li>
+                            <a class="dropdown-item" href="news.html"><img src="layout/icon/new.png" alt=""> artcal</a>
+                        </li>
+                        <li> <a class="dropdown-item" href="about-1.html"><i class="fa fa-life-ring"></i> about</a></li>
+                        <li>
+                            <a class="dropdown-item" href="#"> <img src="layout/icon/logout.png" alt=""><span>log out</span></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <!--end navaber-->
+
+    <!-- Vertical navbar -->
+    <div class="vertical-nav " id="sidebar">
+        <div class="user_info">
+            <div class="circle">
+                <img class="profile-pic" src="">
+            </div>
+            <div class="p-image">
+                <i class="fa fa-plus-circle fa-2x upload-button"></i>
+                <input class="file-upload" type="file" accept="image/*" />
+            </div>
+        </div>
+        <div class="user-name">
+            <h3>Ameer GD</h3>
+            <p class="project">
+                Project
+                <br> 3 </p>
+            <div class="hr"></div>
+            <span class="star"> <i class=" fa fa-star"> 8</i></span>
+            <ul class="list-group text-left">
+                <li>
+                    <i class="fa fa-graduation-cap" style="color: #000"></i>
+                    <span class="college"> College computer Sciences</span>
+                </li>
+                <li>
+                    <i class="fa fa-briefcase" style="color: #000"></i>
+                    <span style="margin-left: 10px;"> Not work yet  </span>
+                </li>
+                <li>
+                    <i class="fa fa-map-marker" style="color: #000; margin-left: -1px;"></i>
+                    <span style="margin-left: 20px;"> Iraq , Kut</span>
+                </li>
+                <li>
+                    <i class="fa fa-mobile" style="color: #000"></i>
+                    <span style="margin-left: 20px;"> 0780000000</span>
+                </li>
+                <li>
+                    <i class="fa  fa-github" style="color: #000 ; margin-left: -8px;"></i>
+                    <a href="https://github.com/AmeerAmjed" style="font-size: 14px;
+                                                                    padding-left: 23px;
+                                                                    ">
+                                                                    https://github.com/AmeerAmjed
+                        </a>
+
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- End vertical navbar -->
+
+    <!-- Page content holder -->
+    <div class="page-content p-5" id="content">
+        <!-- Toggle button -->
+        <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4 visible-sm"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button>
+
+        <!-- Demo content -->
+        <div class="info">
+            <div class="row">
+                <div class="card tranining">
+                    <div class="card-body">
+                        <p class="card-text">Management College</p>
+                        <div class="icons">
+                            <i class="fa fa-star fa-2x" style="color:#FEDE50" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-footer">
+                            <span>
+                                    <i class="fa fa-circle" style="color:#d39e00"></i>
+                                    java
+                                    <i class="fa fa-star">
+                                        2
+                                    </i>
+                                </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="info">
+            <div class="row">
+                <div class="card  tranining">
+                    <div class="card-body">
+                        <p class="card-text">Management College</p>
+                        <div class="icons">
+                            <i class="fa fa-star fa-2x" style="color:#FEDE50" aria-hidden="true"></i>
+                        </div>
+                        <div class="card-footer">
+                            <span>
+                                        <i class="fa fa-circle" style="color:#d39e00"></i>
+                                        java
+                                        <i class="fa fa-star">
+                                            2
+                                        </i>
+                                    </span>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+    <script src="layout/js/jquery-3.4.1.slim.min.js"></script>
+    <script src="layout/js/popper.min.js"></script>
+    <script src="layout/js/bootstrap.min.js"></script>
+    <script src="layout/js/main.js"></script>

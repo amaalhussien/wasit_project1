@@ -1,0 +1,1506 @@
+                        /* color use in website
+    1- #22588F
+    2- #FEDE50
+    3- #6C63FF
+    4- #868686
+    5- #FFB74D
+    6- #FC4646
+    7- #5B5B64
+    8- #133C64
+    9- #59B85F
+    */
+                        /* Global  Rules */
+                        
+                        * {
+                            box-sizing: border-box;
+                        }
+                        
+                        @import url(https://fonts.googleapis.com/css?family=Open+Sans);
+                        body {
+                            font-family: 'Open Sans', sans-serif;
+                        }
+                        /* end Global Rules */
+                        /* start style for login page */
+                        
+                        .card_login_header i {
+                            margin-top: 45px;
+                            color: #000000;
+                        }
+                        
+                        .card_login {
+                            float: right;
+                            margin-right: 80px;
+                            margin-top: 140px;
+                        }
+                        
+                        .card_login .form-group {
+                            width: 355px;
+                        }
+                        
+                        .card_login .form-group .input-icons i {
+                            position: absolute;
+                            margin-top: 13px;
+                            margin-left: 13px;
+                        }
+                        
+                        .card_login .form-group input {
+                            padding: 25px;
+                            padding-left: 60px;
+                            box-shadow: 3.5px 3.5px 3.5px 3.5px #ddd;
+                            border: 2px solid #FFF !important;
+                        }
+                        
+                        .card_login .btn-primary {
+                            float: right;
+                            color: #fff;
+                            background-color: #6c63ff !important;
+                            border-color: #6c63ff !important;
+                            margin-top: 20px;
+                            width: 102px;
+                            border-radius: 6px;
+                            margin-right: -17px;
+                        }
+                        
+                        .card_login .link {
+                            margin-top: 28px;
+                            float: left;
+                        }
+                        
+                        .card_login .link a {
+                            font-weight: bold;
+                            color: #59B85F;
+                        }
+                        
+                        .card_login_img {
+                            float: left;
+                        }
+                        
+                        .card_login_img .img {
+                            width: 500px;
+                            margin: 70px auto;
+                        }
+                        
+                        .visible-sm {
+                            display: none;
+                        }
+                        
+                        @media (max-width: 575.98px) {
+                            .card_login_header i {
+                                margin-top: 45px;
+                                margin-left: 34px;
+                                color: #000000;
+                            }
+                            .card_login {
+                                margin: auto;
+                                margin-top: 140px;
+                            }
+                            .card_login .form-group {
+                                width: auto;
+                            }
+                            .card_login .link {
+                                margin-top: 28px;
+                                float: left;
+                                font-size: 14px;
+                            }
+                            .card_login .btn-primary {
+                                margin-right: -2px;
+                            }
+                        }
+                        /*end login page */
+                        /*===================================================================================*/
+                        /*start home page */
+                        /*start  upper */
+                        
+                        .upper-bar .row {
+                            flex-wrap: nowrap !important;
+                        }
+                        
+                        .upper-bar .info img {
+                            width: 55px;
+                            height: 55px;
+                            margin-top: 10px;
+                            float: left;
+                            margin-left: 11px;
+                        }
+                        
+                        .upper-bar .info p {
+                            color: #22588F;
+                            font-weight: bold;
+                            font-size: 20px;
+                            margin-top: 20px;
+                            margin-left: 81px;
+                        }
+                        
+                        .upper-bar .info ul li {
+                            display: inline-block;
+                            list-style: none;
+                            margin-top: 20px;
+                            color: #22588F;
+                            font-weight: bolder;
+                        }
+                        
+                        .upper-bar .info a {
+                            color: #22588F !important;
+                        }
+                        
+                        .upper-bar .info ul li::after {
+                            content: " | ";
+                            color: #FEDE50;
+                        }
+                        
+                        .upper-bar .info ul li:last-child::after {
+                            content: " ";
+                        }
+                        
+                        @media (max-width:767px) {
+                            .upper-bar .info ul li {
+                                display: inline-block;
+                                list-style: none;
+                                margin-top: 25px;
+                                font-weight: bolder;
+                            }
+                        }
+                        /* start navbar */
+                        
+                        .navbar-light .navbar-toggler {
+                            color: #ffc107;
+                            margin-left: 8px;
+                            border-color: rgb(255, 255, 255);
+                        }
+                        
+                        .navbar-light {
+                            background-color: #22588F !important;
+                        }
+                        
+                        .navbar-light .navbar-nav .nav-link {
+                            color: #fff;
+                            margin-left: 117px;
+                            font-size: 18px;
+                        }
+                        
+                        .navbar-light .navbar-nav .nav-item .nav-link:focus {
+                            color: #ffffff;
+                        }
+                        
+                        .navbar-light .navbar-nav .nav-link:hover {
+                            color: #ffffff
+                        }
+                        
+                        .navbar-light .navbar-nav .active>.nav-link {
+                            color: #fff;
+                            text-decoration: underline;
+                        }
+                        
+                        .dropdown-toggle.active-dropdown::after {
+                            transform: rotate(-90deg);
+                        }
+                        
+                        .navbar-nav .dropdown-menu {
+                            float: none;
+                            width: auto;
+                            margin-left: 176px;
+                            box-shadow: 2px 2px 2px 2px #ddd;
+                        }
+                        
+                        .navbar-nav .dropdown-item {
+                            color: #000000;
+                            margin-top: 5px;
+                            padding: 12px;
+                            border-bottom: 2px solid #dddddd5e;
+                        }
+                        
+                        .navbar-nav .dropdown-menu .sub-menu {
+                            margin-top: 21px !important;
+                            margin-left: -55px !important;
+                        }
+                        
+                        .navbar-nav .dropdown-menu .sub-menu2 {
+                            margin-top: 14px !important;
+                            margin-left: -16px !important;
+                        }
+                        
+                        .triangle-up {
+                            margin-top: -56px;
+                            margin-left: 18px;
+                            color: #fff;
+                            position: absolute;
+                        }
+                        
+                        .navbar-light .navbar-nav .active>.nav-link,
+                        .navbar-light .navbar-nav .nav-link.active,
+                        .navbar-light .navbar-nav .nav-link.show,
+                        .navbar-light .navbar-nav .show>.nav-link {
+                            color: #fff;
+                        }
+                        
+                        @media(max-width:767px) {
+                            .navbar-nav .dropdown-menu {
+                                position: static;
+                                background-color: #22588f;
+                                float: none;
+                                width: 200px;
+                                margin-left: 107px;
+                                box-shadow: none;
+                            }
+                            .navbar-nav .dropdown-item {
+                                color: #ffffff;
+                            }
+                            .triangle-up {
+                                display: none;
+                            }
+                            .dropdown-item.active,
+                            .dropdown-item:active {
+                                color: #ffffff;
+                                text-decoration: none;
+                                background-color: #22588f;
+                            }
+                            .navbar-nav .dropdown-menu>li>a:hover,
+                            .navbar-nav .dropdown-menu>li>a:focus {
+                                color: #fff !important;
+                                background-color: transparent;
+                            }
+                        }
+                        
+                        .navbar-nav .dropdown-menu>li>a:hover,
+                        .navbar-nav .dropdown-menu>li>a:focus {
+                            color: #0c75de;
+                            background-color: transparent;
+                        }
+                        /* end navbar */
+                        /*start overviwe */
+                        
+                        .overivwe {
+                            margin-left: 20px;
+                            margin-right: 20px;
+                        }
+                        
+                        .overviwe_card_img {
+                            float: right;
+                        }
+                        
+                        .overviwe_card_img img {
+                            width: 500px;
+                            margin: 55px auto;
+                        }
+                        
+                        .overviwe_card_info {
+                            float: left;
+                            margin: 15% auto;
+                            margin-left: 37px;
+                        }
+                        
+                        .overviwe_card_info .C {
+                            margin-top: 23px;
+                            font-size: 40px;
+                            font-weight: bold;
+                            color: #000000;
+                        }
+                        
+                        .overviwe_card_info p {
+                            margin-top: 38px;
+                            color: #000000;
+                            font-weight: bold;
+                            font-size: 22px;
+                            text-shadow: 1px 1px 2px #22588F;
+                        }
+                        
+                        .overviwe_card_info span {
+                            text-decoration: inherit;
+                        }
+                        
+                        @media(max-width: 767px) {
+                            .overviwe_card_img {
+                                float: none;
+                            }
+                            .overviwe_card_info {
+                                margin-left: 0px;
+                                margin-top: -50px;
+                                padding-left: 15px;
+                                padding-right: 15px;
+                            }
+                            .overviwe_card_info p {
+                                font-size: 20px;
+                                text-align: center;
+                            }
+                            .overviwe_card_info .bottom {
+                                padding-left: 120px;
+                                padding-right: 120px;
+                            }
+                            .overviwe_card_img img {
+                                width: 350px;
+                                height: 250px;
+                                padding-left: 15px;
+                            }
+                        }
+                        
+                        .overviwe_card_info .bottom .btn-primary {
+                            background-color: #fff;
+                            color: #000000;
+                            text-align: center;
+                            width: 100px;
+                            border: 2px solid #FEDE50;
+                            border-radius: 117px;
+                            height: 34px;
+                            font-weight: bolder;
+                        }
+                        
+                        .overviwe_card_info .btn-primary.focus,
+                        .btn-primary:focus {
+                            color: #fff;
+                            box-shadow: 0 0 0 0.2rem rgb(255, 255, 255);
+                            box-shadow: 0 0 black;
+                        }
+                        /*end overviwe */
+                        /* end Home page */
+                        /*=============================================================================================*/
+                        /*  start best project  page  */
+                        
+                        .header {
+                            margin-top: 10px;
+                        }
+                        
+                        .header .search {
+                            float: right;
+                        }
+                        
+                        .header .search img {
+                            position: absolute;
+                            margin-left: 215px;
+                        }
+                        
+                        .header .search .form-control {
+                            box-shadow: 3.5px 3.5px 3.5px 3.5px #ddd;
+                            border: 0px;
+                            border-radius: 12px;
+                            width: 250px;
+                            height: 31px;
+                        }
+                        
+                        .header .link a {
+                            color: #000000;
+                            margin-left: 12px;
+                        }
+                        /*start card project */
+                        
+                        .card_project {
+                            padding: 60px 0;
+                        }
+                        
+                        .card_project .card {
+                            border-radius: 10px;
+                            box-shadow: 2.5px 2.5px 2.5px 2.5px #ddd;
+                            margin-bottom: 20px;
+                        }
+                        
+                        .card_project .card .card-img-top {
+                            height: 165px;
+                            padding: 16px;
+                        }
+                        
+                        .card_project .card .card-body img {
+                            width: 49px;
+                            height: 49px;
+                            border-radius: 50%;
+                            float: left;
+                            margin-left: -12px;
+                            margin-top: -26px;
+                        }
+                        
+                        .card_project .card .card-body .card-text {
+                            margin-top: -26px;
+                            float: right;
+                            line-height: 1.6;
+                            width: 80%;
+                            font-size: 12px;
+                        }
+                        
+                        .card_project .card .card-footer {
+                            background-color: #fff;
+                            border: 0px;
+                            margin-top: -10px;
+                        }
+                        
+                        .card_project .card .card-footer .star {
+                            padding-left: 32px;
+                        }
+                        
+                        .card_project .card .card-footer .star i {
+                            color: #FEDE50;
+                        }
+                        
+                        .card_project .card .card-footer .code i {
+                            color: #000000;
+                            padding-left: 8px;
+                        }
+                        /*end card project */
+                        /*start footer  */
+                        
+                        .footer {
+                            position: static;
+                            left: 0;
+                            bottom: 0;
+                            width: 100%;
+                            background-color: #22588F;
+                            color: white;
+                            padding: 20px;
+                        }
+                        
+                        .footer .info {
+                            float: left;
+                        }
+                        
+                        .footer .info img {
+                            width: 55px;
+                            height: 40px;
+                            margin-top: 10px;
+                            float: left;
+                            margin-left: 11px;
+                        }
+                        
+                        .footer .info p {
+                            color: #fff;
+                            font-weight: bolder;
+                            font-size: 15px;
+                            margin-top: 20px;
+                            margin-left: 81px;
+                            text-shadow: 0.4px 0.4px 1px #22588F;
+                        }
+                        /*end footer */
+                        /* end  best project page */
+                        /* __________________________________________________________________________ */
+                        /*start sign up page */
+                        
+                        .card_signup {
+                            float: left;
+                            margin-top: 47px;
+                            margin-left: 72px;
+                        }
+                        
+                        @media (max-width: 575.98px) {
+                            .card_signup {
+                                margin: 20% auto;
+                                padding-left: 15px;
+                                padding-right: 15px;
+                            }
+                            .card_signup .form-group {
+                                width: 300px !important;
+                            }
+                            .card_signup .form-group .label {
+                                width: 300px !important;
+                                margin-top: 3px;
+                            }
+                            .card_signup .form-group .setect {
+                                width: 164px !important;
+                            }
+                            .card_signup .form-group .setect_stage {
+                                width: 90px;
+                            }
+                            .card_signup .btn-primary {
+                                width: 80px;
+                                width: 80px !important;
+                                font-size: 13px;
+                            }
+                        }
+                        
+                        .card_signup .form-group {
+                            width: 355px;
+                        }
+                        
+                        .card_signup .form-group .input-icons i {
+                            position: absolute;
+                            margin-top: 13px;
+                            margin-left: 19px;
+                        }
+                        
+                        .card_signup .form-group input {
+                            padding: 25px;
+                            padding-left: 60px;
+                            box-shadow: 3.5px 3.5px 3.5px 3.5px #ddd;
+                            border: 2px solid #FFF !important;
+                        }
+                        
+                        .card_signup .form-group .label {
+                            padding: 14px;
+                            width: 355px;
+                            padding-left: 60px;
+                            box-shadow: 3.5px 3.5px 3.5px 3.5px #ddd;
+                            border: 2px solid #FFF !important;
+                            margin-top: 3px;
+                        }
+                        
+                        .card_signup .form-group .setect {
+                            padding: 14px;
+                            margin-top: 10px;
+                            width: 220px;
+                            padding-left: 60px;
+                            box-shadow: 3.5px 3.5px 3.5px 3.5px #ddd;
+                            border: 2px solid #FFF !important;
+                        }
+                        
+                        .card_signup .form-group .setect_stage {
+                            padding: 14px;
+                            margin-top: 10px;
+                            width: 130px;
+                            box-shadow: 3.5px 3.5px 3.5px 3.5px #ddd;
+                            border: 2px solid #FFF !important;
+                        }
+                        
+                        .card_signup .form-group .input-icons_c i {
+                            margin-top: 23px;
+                            margin-left: 12px;
+                            position: absolute;
+                        }
+                        
+                        .card_signup .form-group .input-icon_p i {
+                            margin-top: 23px;
+                            margin-left: 12px;
+                            position: absolute;
+                        }
+                        
+                        .card_signup .form-group .label .option {
+                            margin-left: 14px;
+                            box-shadow: 0px 0px 0px 0px #ddd;
+                        }
+                        
+                        .card_signup .btn-primary {
+                            float: right;
+                            color: #fff;
+                            background-color: #6c63ff !important;
+                            border-color: #6c63ff !important;
+                            margin-top: 10px;
+                            width: 102px;
+                            border-radius: 6px;
+                        }
+                        
+                        .card_signup .link {
+                            margin-top: 20px;
+                            float: left;
+                        }
+                        
+                        .card_login .link a {
+                            font-weight: bold;
+                            color: #59B85F;
+                        }
+                        
+                        .card_signup_img {
+                            float: right;
+                        }
+                        
+                        .card_signup_img .img {
+                            width: 500px;
+                            margin: 70px auto;
+                        }
+                        /*end signup page */
+                        /*======================================================================================================*/
+                        /*start resposive for home page login sign up */
+                        
+                        @media (max-width: 767px) {
+                            .dropdown-toggle.active-dropdown::after {
+                                transform: rotate(0deg);
+                            }
+                            .navbar-nav .dropdown-menu .sub-menu {
+                                margin-top: 21px !important;
+                                margin-left: -1px !important;
+                            }
+                            .navbar-nav .dropdown-menu .sub-menu2 {
+                                margin-top: 17px !important;
+                                margin-left: -1px !important;
+                            }
+                        }
+                        
+                        @media (min-width: 992px) {
+                            .visible-sm {
+                                display: block !important;
+                            }
+                            .card_login_img .img {
+                                width: 400px;
+                                float: left !important;
+                            }
+                            .navbar-expand-lg .navbar-nav .dropdown-menu {
+                                position: absolute;
+                                margin-left: 155px
+                            }
+                        }
+                        
+                        @media (min-width: 1200px) {
+                            .visible-sm {
+                                display: block !important;
+                            }
+                            .card_login_img .img {
+                                width: 500px;
+                                float: left !important;
+                            }
+                            .card_login {
+                                margin-top: 189px;
+                            }
+                        }
+                        /*=================================================================================*/
+                        /* start Best_ project page */
+                        
+                        .card_project .card .card-body .header {
+                            margin-top: -7px;
+                            font-size: 18px;
+                            margin-bottom: 1px;
+                        }
+                        /*end Best_project page */
+                        /*=====================================================================================*/
+                        /*start about page */
+                        
+                        .about .about_logo {
+                            text-align: center;
+                        }
+                        
+                        .about .about_logo img {
+                            margin: 15px;
+                            width: 150px;
+                            margin-bottom: -5px;
+                        }
+                        
+                        .about .about-header {
+                            text-align: center;
+                        }
+                        
+                        .about .about-header h5 {
+                            font-weight: bold;
+                            color: #133C64;
+                        }
+                        
+                        .about .about-text p {
+                            text-align: center;
+                            font-size: 18px;
+                            font-weight: bolder;
+                            color: #133C64;
+                        }
+                        
+                        .about .card-body a {
+                            margin-left: 50px !important;
+                        }
+                        
+                        @media (max-width: 575.98px) {
+                            .about-card .card {
+                                margin-left: 15px !important;
+                                width: 320px !important;
+                            }
+                            .about-card .card .card-body a {
+                                margin-left: 120px !important;
+                            }
+                        }
+                        
+                        @media(max-width:767px) {
+                            .about-info .container .row {
+                                margin-left: -15px !important;
+                                margin-right: -15px !important;
+                            }
+                            .about-card .card {
+                                margin-left: 43px !important;
+                                width: 320px !important;
+                            }
+                            .about-card .card .card-body a {
+                                margin-left: 120px !important;
+                            }
+                        }
+                        
+                        .about-card {
+                            margin-bottom: 10px;
+                        }
+                        
+                        .about-info .container .row {
+                            margin-right: 133px;
+                            margin-left: 133px;
+                        }
+                        
+                        .about-card .card {
+                            margin-bottom: 35px;
+                            box-shadow: 2px 2px 2px 2px #ddd;
+                            border: 0px;
+                            width: 250px;
+                            border-radius: 20px;
+                        }
+                        
+                        .about-card .card .card-header {
+                            background-color: #FFF;
+                            margin-top: 10px;
+                            margin: 1% auto;
+                            border-bottom: 0px;
+                        }
+                        
+                        .about-card .card-body {
+                            padding: 0.25rem;
+                        }
+                        
+                        .about-card .card .card-header img {
+                            border-radius: 50%;
+                            width: 100px;
+                            box-shadow: 2px 2px 2px 1px #ddd;
+                            height: 100px;
+                        }
+                        
+                        .about-card .card .card-body .card-title {
+                            font-weight: 500;
+                            color: #0c75de;
+                            font-size: 19px;
+                        }
+                        
+                        .about-card .card .card-body a {
+                            font-size: 14px;
+                            font-size: 13px;
+                            text-decoration: none;
+                            margin-left: 75px;
+                        }
+                        
+                        .about-card .card .card-footer {
+                            background-color: #fff;
+                            margin-top: 10px;
+                            border: 0px;
+                            margin: 0% auto;
+                        }
+                        
+                        .about-card .card .card-footer i {
+                            margin: 2px;
+                        }
+                        /*========================================================================================*/
+                        /*start college style */
+                        
+                        .header h2 {
+                            margin: 72px;
+                            font-weight: 700;
+                        }
+                        
+                        .search2 {
+                            margin: 3% auto;
+                            width: 660px
+                        }
+                        
+                        @media (max-width: 575.98px) {
+                            .search2 {
+                                width: 354px;
+                            }
+                        }
+                        
+                        @media (min-width: 992px) {
+                            .col-lg-8 {
+                                -ms-flex: 0 0 66.666667%;
+                                flex: 0 0 66.666667%;
+                                max-width: 66.666667%;
+                                margin: 0% auto;
+                            }
+                        }
+                        
+                        .search2 .form-group input {
+                            padding: 30px;
+                            box-shadow: 2.5px 2.5px 4.5px 4.5px #ddd;
+                            border: 2px solid #FFF !important;
+                            border-radius: 12px;
+                        }
+                        
+                        .search2 .search-icons {
+                            border: 0px;
+                            position: absolute;
+                            margin-top: -56px;
+                            background-color: #ffff;
+                            margin-left: -36px;
+                        }
+                        
+                        .search2 .bottom {
+                            float: right;
+                        }
+                        
+                        @media (min-width:767px) {
+                            .search2 {
+                                margin: 3% auto;
+                                width: 473px;
+                            }
+                            .header h2 {
+                                font-size: 20px;
+                            }
+                        }
+                        
+                        @media (min-width: 992px) {
+                            .search2 {
+                                margin: 3% auto;
+                                width: auto;
+                            }
+                        }
+                        /*===========================================================================================*/
+                        /*start tranining page */
+                        
+                        .tranining-card {
+                            margin-top: 87px;
+                        }
+                        
+                        .tranining {
+                            margin: 0% auto;
+                            margin-top: 40px;
+                            border: 0px;
+                            box-shadow: 2.4px 2.4px 2.4px 4px #ddd;
+                            border-radius: 15px;
+                            width: 660px;
+                            margin-bottom: 50px;
+                        }
+                        
+                        .tranining .card-img {
+                            margin: 27px;
+                            height: 61px;
+                            width: 61px;
+                            border-radius: 50%;
+                        }
+                        
+                        .tranining .card-body .card-title {
+                            position: absolute;
+                            margin-top: -83px;
+                            font-size: 14px;
+                            font-weight: 700;
+                            margin-left: 78px;
+                        }
+                        
+                        .tranining .card-body .date {
+                            position: absolute;
+                            margin-top: -87px;
+                            margin-left: 182px;
+                            font-size: 12px;
+                        }
+                        
+                        .tranining .card-text {
+                            margin-top: -30px;
+                        }
+                        
+                        .tranining .icons {
+                            float: right;
+                            margin-top: -42px;
+                            margin-right: 34px;
+                        }
+                        
+                        .tranining .card-footer {
+                            background-color: #fff;
+                            border-top: 0px;
+                            margin-top: -10px;
+                            margin-bottom: -10px;
+                        }
+                        
+                        .tranining .card-footer ul li {
+                            list-style: none;
+                            display: inline;
+                            margin-left: 20px;
+                        }
+                        
+                        .tranining .card-footer span {
+                            color: #ffc107;
+                            font-weight: bold;
+                        }
+                        
+                        @media (max-width:767px) {
+                            .tranining {
+                                margin: 0% auto;
+                                margin-top: 40px;
+                                margin-left: 15px;
+                                margin-right: 15px;
+                                border: 0px;
+                                box-shadow: 2.4px 2.4px 2.4px 4px #ddd;
+                                border-radius: 15px;
+                                width: auto;
+                                margin-bottom: 50px;
+                            }
+                            .tranining .card-body .icons {
+                                margin-top: -10px;
+                            }
+                            .tranining .card-body .icons {
+                                margin-top: -39px;
+                            }
+                            .tranining .icons {
+                                margin-right: 18px;
+                            }
+                        }
+                        /*======================================================================================================*/
+                        /*start News & artacl */
+                        
+                        .news {
+                            margin-top: 87px;
+                        }
+                        
+                        .card-news {
+                            margin: 0% auto;
+                            margin-top: 40px;
+                            border: 0px;
+                            box-shadow: 2.4px 2.4px 2.4px 4px #ddd;
+                            border-radius: 15px;
+                            width: 660px;
+                            margin-bottom: 50px;
+                        }
+                        
+                        .card-news .card-img {
+                            margin: 27px;
+                            height: 61px;
+                            width: 61px;
+                            border-radius: 50%;
+                        }
+                        
+                        .card-news .card-body .card-title {
+                            position: absolute;
+                            margin-top: -83px;
+                            font-size: 14px;
+                            font-weight: 700;
+                            margin-left: 78px;
+                        }
+                        
+                        .card-news .card-body .date {
+                            position: absolute;
+                            margin-top: -87px;
+                            margin-left: 182px;
+                            font-size: 12px;
+                        }
+                        
+                        .card-news .card-body .title {
+                            font-size: 20px;
+                            margin-top: 1px;
+                            color: #5B5B64;
+                            margin-left: 10px;
+                        }
+                        
+                        .card-news .artcal {
+                            line-height: 40px;
+                            margin-left: 10px;
+                        }
+                        
+                        .card-news .card-footer {
+                            background-color: #fff;
+                            border-top: 0px;
+                            margin-top: -10px;
+                            margin-bottom: -10px;
+                            margin-left: -14px;
+                        }
+                        
+                        .card-news .card-footer ul li {
+                            list-style: none;
+                            display: inline;
+                            margin-left: 20px;
+                        }
+                        
+                        .card-news .card-footer span {
+                            color: #ffc107;
+                            font-weight: bold;
+                        }
+                        
+                        @media (max-width:767px) {
+                            .card-news {
+                                margin-bottom: 50px;
+                                margin-right: 15px;
+                                margin-left: 15px;
+                            }
+                        }
+                        /*end news & artcal */
+                        /*===================================================================================================*/
+                        /*start profile page */
+                        /*start navbar */
+                        
+                        .navbar-dark {
+                            background-color: #fff !important;
+                            border-bottom: 1px solid #ddd;
+                            box-shadow: 1px 2px 2px 2px #ddd;
+                        }
+                        
+                        .navbar-dark .nav-link {
+                            color: #0c75de !important;
+                        }
+                        
+                        .navbar-dark .logo {
+                            padding-right: 12px;
+                        }
+                        
+                        .navbar-dark .logo img {
+                            margin-left: 30px;
+                            width: 50px;
+                            height: 50px;
+                        }
+                        
+                        .navbar-dark .search {
+                            padding-left: 12px;
+                        }
+                        
+                        .navbar-dark .search input {
+                            border-radius: 30px;
+                        }
+                        
+                        @media (max-width: 575.98px) {
+                            .navbar-dark .search {
+                                padding-left: 5px;
+                            }
+                            .navbar-dark .search input {
+                                width: 159px;
+                            }
+                            .navbar-dark .search .btn {
+                                position: absolute;
+                                margin-left: 110px;
+                            }
+                        }
+                        
+                        @media(max-width:767px) {
+                            .navbar-dark .dropdown-item.active,
+                            .navbar-dark .dropdown-item:active {
+                                color: #0c75de;
+                                text-decoration: none;
+                            }
+                            .navbar-dark .navbar-nav .dropdown-menu>li>a:hover,
+                            .navbar-dark .navbar-nav .dropdown-menu>li>a:focus {
+                                color: #0c75de !important;
+                                background-color: transparent;
+                            }
+                        }
+                        
+                        .navbar-dark .dropdown-menu {
+                            background-color: #ffffff;
+                            border: 0px;
+                            margin-left: 12px;
+                            box-shadow: 2px 2px 2px 2px #ddd;
+                        }
+                        
+                        .navbar-dark .dropdown-item {
+                            color: #0c75de;
+                        }
+                        
+                        @media (min-width: 992px) {
+                            .navbar-dark .navbar-nav .dropdown-menu {
+                                position: absolute;
+                                margin-left: 31px;
+                            }
+                        }
+                        
+                        .users {
+                            margin-right: 50px;
+                            padding-right: 15px;
+                        }
+                        
+                        .users .img-circle img {
+                            width: 50px;
+                            height: 50px;
+                        }
+                        
+                        .users .dropdown {
+                            position: absolute;
+                            margin-top: -43px;
+                            margin-left: 13px;
+                        }
+                        
+                        .users .dropdown .profile {
+                            position: absolute;
+                            margin-right: 10px;
+                            margin-left: -68px;
+                        }
+                        
+                        .users .dropdown .btn {
+                            border: 0px;
+                            margin-left: 29px;
+                        }
+                        
+                        .users .dropdown .triangle-up {
+                            margin-left: 100px;
+                        }
+                        
+                        @media (max-width:767px) {
+                            .navbar-dark .search .btn {
+                                position: absolute;
+                                margin-top: 2px !important;
+                            }
+                            .users {
+                                margin-left: 1px;
+                            }
+                            .navbar-dark .navbar-nav .dropdown-menu {
+                                margin-bottom: 50px;
+                                margin-right: 20px;
+                                margin-left: -3px;
+                            }
+                            .users .dropdown .profile {
+                                margin-left: 20px;
+                            }
+                            .users .dropdown .triangle-up {
+                                margin-left: 11px;
+                            }
+                            .users .dropdown .visible-sm {
+                                display: block;
+                            }
+                        }
+                        /*end navbar */
+                        /*start vertical nav */
+                        
+                        .vertical-nav {
+                            min-width: 19rem;
+                            width: 19rem;
+                            height: 100vh;
+                            position: absolute;
+                            top: 70px;
+                            left: 0;
+                            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.1);
+                            background-color: #dddddd26;
+                            transition: all 0.4s;
+                        }
+                        
+                        .vertical-nav .Repositories {
+                            margin: 50% auto;
+                        }
+                        
+                        .vertical-nav .Repositories .title {
+                            margin-left: 20px;
+                        }
+                        
+                        .vertical-nav .Repositories ul li {
+                            list-style: none;
+                        }
+                        
+                        .vertical-nav .Repositories .link img {
+                            width: 30px;
+                            height: 20px;
+                        }
+                        
+                        .vertical-nav .Repositories .link {
+                            position: absolute;
+                            float: right;
+                            margin-top: -44px;
+                            margin-left: 230px;
+                        }
+                        
+                        .page-content {
+                            width: calc(100% - 19rem);
+                            margin-left: 19rem;
+                            transition: all 0.4s;
+                            margin-top: 40px;
+                        }
+                        
+                        .page-content .visible-sm {
+                            display: none !important;
+                        }
+                        
+                        .page-content .info {
+                            margin-left: 5rem;
+                        }
+                        
+                        .page-content .info .header .text {
+                            position: absolute;
+                            margin-top: -42px;
+                            margin-left: 79px;
+                            font-weight: 800;
+                        }
+                        
+                        .page-content .info .header .text span {
+                            font-size: 16px;
+                            color: #5B5B64;
+                            font-weight: 400;
+                            padding: 15px;
+                        }
+                        
+                        .page-content .info .header .text .time {
+                            color: #5B5B64;
+                            font-style: italic;
+                            padding: 2px;
+                        }
+                        
+                        .page-content .info .tranining {
+                            margin: 0px;
+                            margin-top: 10px;
+                        }
+                        
+                        .page-content .info .tranining .card-text {
+                            margin-left: 15px;
+                            margin-right: 15px;
+                            margin-top: 15px;
+                        }
+                        
+                        .page-content .info .tranining .card-footer span {
+                            color: #5b5b6478;
+                        }
+                        /* for toggle behavior */
+                        
+                        #sidebar.active {
+                            margin-left: -17rem;
+                        }
+                        
+                        #content.active {
+                            width: 100%;
+                            margin: 0% auto;
+                        }
+                        
+                        @media (max-width: 768px) {
+                            .vertical-nav {
+                                min-width: 12rem;
+                                width: 12rem;
+                            }
+                            .page-content .info .header .text {
+                                position: absolute;
+                                margin-top: -42px;
+                                margin-left: 70px;
+                                font-weight: 800;
+                            }
+                            .page-content .info .header .text span {
+                                font-size: 16px;
+                                color: #5B5B64;
+                                font-weight: 400;
+                                padding: 6px;
+                            }
+                            .page-content .info .header .text .time {
+                                color: #5B5B64;
+                                font-style: italic;
+                                padding: 2px;
+                            }
+                            .page-content .visible-sm {
+                                display: block !important;
+                            }
+                            .vertical-nav .Repositories .title {
+                                margin-left: 4px;
+                            }
+                            .vertical-nav .Repositories .link img {
+                                width: 30px;
+                                height: 20px;
+                            }
+                            .vertical-nav .Repositories ul li {
+                                list-style: none;
+                                font-size: 14px;
+                                margin-left: -26px;
+                            }
+                            .vertical-nav .Repositories .link {
+                                position: absolute;
+                                float: right;
+                                margin-top: -44px;
+                                margin-left: 120px;
+                            }
+                            .page-content .info {
+                                margin-left: 0.5rem;
+                            }
+                            .page-content .info .tranining {
+                                width: 300px;
+                            }
+                            #sidebar {
+                                margin-left: -19rem;
+                            }
+                            #sidebar.active {
+                                margin-left: 0;
+                            }
+                            #content {
+                                width: 100%;
+                                margin: 0;
+                            }
+                            #content.active {
+                                margin-left: 10rem;
+                                width: calc(100% - 10rem);
+                            }
+                        }
+                        /*=====================================================================================================*/
+                        /*start add project */
+                        
+                        .add_project {
+                            margin: 5% auto;
+                        }
+                        
+                        .add_project .add-titel {
+                            font-weight: 500;
+                            font-weight: 600;
+                            text-shadow: 0px 0.3px 1px #0c75de;
+                        }
+                        
+                        .add_project .form {
+                            margin: 0% auto;
+                            width: 500px;
+                        }
+                        
+                        .add_project .form-group .input-icons i {
+                            position: absolute;
+                            margin-top: 23px;
+                            margin-left: 13px;
+                        }
+                        
+                        .add_project .form-group input {
+                            padding: 25px;
+                            padding-left: 20px;
+                            box-shadow: 3.5px 3.5px 3.5px 3.5px #ddd;
+                            border: 2px solid #FFF !important;
+                        }
+                        
+                        .add_project .form-group textarea {
+                            padding: 30px;
+                            padding-left: 20px;
+                            box-shadow: 3.5px 3.5px 3.5px 3.5px #ddd;
+                            border: 2px solid #FFF !important;
+                        }
+                        
+                        .add_project .btn-primary {
+                            width: 500px;
+                            border-radius: 30px;
+                            padding: 15px;
+                            background-color: #5B5B64;
+                        }
+                        
+                        @media(max-width:576px) {
+                            .add_project .form {
+                                margin: 0% auto;
+                                width: 300px;
+                            }
+                            .add_project .btn-primary {
+                                width: 300px;
+                                padding: 10px;
+                                margin-top: 5px;
+                            }
+                        }
+                        /*===============================================================================================*/
+                        /*start profile page */
+                        
+                        .vertical-nav .user_info {
+                            padding: 30%;
+                        }
+                        
+                        .vertical-nav .p-image i {
+                            position: absolute;
+                            margin-left: 113px;
+                            margin-top: 57px;
+                            color: #22588f;
+                        }
+                        
+                        .vertical-nav .profile-pic {
+                            max-width: 200px;
+                            max-height: 200px;
+                            display: block;
+                        }
+                        
+                        .vertical-nav .file-upload {
+                            display: none;
+                        }
+                        
+                        .vertical-nav .circle {
+                            border-radius: 500px !important;
+                            overflow: hidden;
+                            width: 128px;
+                            height: 128px;
+                            border: 8px solid rgba(255, 255, 255, 0.7);
+                            position: absolute;
+                            top: 72px;
+                            background-color: #5B5B64;
+                        }
+                        
+                        .vertical-nav img {
+                            max-width: 100%;
+                            height: auto;
+                        }
+                        
+                        .vertical-nav .user-name {
+                            text-align: center;
+                            padding-top: 20px;
+                            color: #5B5B64;
+                        }
+                        
+                        .vertical-nav .user-name h3 {
+                            font-weight: bold;
+                        }
+                        
+                        .vertical-nav .user-name .project {
+                            padding-left: 85px;
+                            position: absolute;
+                        }
+                        
+                        .vertical-nav .user-name .hr {
+                            border-left: 2px solid green;
+                            height: 40px;
+                            margin-left: 160px;
+                        }
+                        
+                        .vertical-nav .user-name .star {
+                            padding-left: 30px;
+                            position: absolute;
+                            margin-top: -39px;
+                            color: #b5b5b5;
+                            font-size: 25px;
+                        }
+                        
+                        .vertical-nav .list-group {
+                            line-height: 40px;
+                            color: #22588f;
+                            margin-top: 23px;
+                            padding-left: 25px;
+                            padding-right: 15px;
+                            list-style: none;
+                            font-size: 23px;
+                        }
+                        
+                        .vertical-nav .list-group i {
+                            font-size: 33px;
+                        }
+                        
+                        .vertical-nav .list-group span {
+                            font-size: 15px;
+                            padding-left: 10px;
+                        }
+                        
+                        .page-content .info .tranining {
+                            margin: 0px;
+                            margin-top: 30px;
+                        }
+                        
+                        @media (max-width:767px) {
+                            .vertical-nav .user_info {
+                                padding: 10%;
+                            }
+                            .vertical-nav .p-image i {
+                                position: absolute;
+                                margin-left: 113px;
+                                margin-top: 140px;
+                                color: #22588f;
+                            }
+                            .vertical-nav .file-upload {
+                                display: none;
+                            }
+                            .vertical-nav .circle {
+                                border-radius: 400px !important;
+                                overflow: hidden;
+                                width: 128px;
+                                height: 128px;
+                                border: 8px solid rgba(255, 255, 255, 0.7);
+                                position: absolute;
+                                top: 72px;
+                                background-color: #5B5B64;
+                            }
+                            .vertical-nav img {
+                                max-width: 100%;
+                                height: auto;
+                            }
+                            .vertical-nav .user-name {
+                                text-align: center;
+                                padding-top: 180px;
+                                color: #5B5B64;
+                            }
+                            .vertical-nav .user-name h3 {
+                                font-weight: bold;
+                            }
+                            .vertical-nav .user-name .project {
+                                padding-left: 40px;
+                                position: absolute;
+                            }
+                            .vertical-nav .user-name .hr {
+                                border-left: 2px solid #5B5B64;
+                                height: 40px;
+                                margin-left: 100px;
+                            }
+                            .vertical-nav .user-name .star {
+                                padding-left: 20px;
+                                position: absolute;
+                                margin-top: -39px;
+                                color: #b5b5b5;
+                                font-size: 25px;
+                            }
+                            .vertical-nav .list-group {
+                                line-height: 40px;
+                                color: #22588f;
+                                margin-top: 23px;
+                                padding-left: 15px;
+                                padding-right: 15px;
+                                list-style: none;
+                            }
+                            .vertical-nav .list-group i {
+                                font-size: 20px;
+                            }
+                            .vertical-nav .list-group span {
+                                font-size: 15px;
+                            }
+                            .vertical-nav .list-group .college {
+                                padding-left: 0px;
+                                font-size: 10px;
+                            }
+                            .vertical-nav .list-group a {
+                                font-size: 10.4px !important;
+                                padding-left: 0px !important;
+                            }
+                        }
